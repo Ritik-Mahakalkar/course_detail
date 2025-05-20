@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Modal, Card, Container, Row, Col } from "react-bootstrap";
-import "./App.css"; // See CSS below
+import "./App.css"; 
 
 const App = () => {
   const [selectedCourse, setSelectedCourse] = useState(null);
